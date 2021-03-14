@@ -1,0 +1,18 @@
+Mar 14 05:13:45.136 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 05:13:45.139 HYPERVISOR: Started on IP = localhost, TCP port = 52114.
+Mar 14 05:13:45.490 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 05:13:45.491 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips 
+Mar 14 05:13:45.505 GENERAL: working_dir=C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips
+Mar 14 05:13:45.506 HYPERVISOR: exec_cmd: ethsw create EthernetSwitch-1Contabilidad 
+Mar 14 05:13:50.512 HYPERVISOR: exec_cmd: nio create_udp udp-f20a3c46-b876-495f-b079-53e5ebc36d1a 10000 127.0.0.1 10001 
+Mar 14 05:13:50.514 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-1Contabilidad udp-f20a3c46-b876-495f-b079-53e5ebc36d1a 
+Mar 14 05:13:50.523 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-1Contabilidad udp-f20a3c46-b876-495f-b079-53e5ebc36d1a 1 
+Mar 14 05:13:50.711 HYPERVISOR: exec_cmd: nio create_udp udp-8f06485e-4989-4898-8f33-fcefe6415de5 10002 127.0.0.1 10003 
+Mar 14 05:13:50.712 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-1Contabilidad udp-8f06485e-4989-4898-8f33-fcefe6415de5 
+Mar 14 05:13:50.749 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-1Contabilidad udp-8f06485e-4989-4898-8f33-fcefe6415de5 1 
+Mar 14 05:13:51.280 HYPERVISOR: exec_cmd: nio create_udp udp-589a226a-6d65-4e68-8822-be818b4a76b0 10010 127.0.0.1 10011 
+Mar 14 05:13:51.281 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-1Contabilidad udp-589a226a-6d65-4e68-8822-be818b4a76b0 
+Mar 14 05:13:51.284 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-1Contabilidad udp-589a226a-6d65-4e68-8822-be818b4a76b0 39 
+Mar 14 05:13:51.862 HYPERVISOR: exec_cmd: nio create_udp udp-a0c6e3a8-b9fd-4d31-8f2b-698cee14a893 10018 127.0.0.1 10019 
+Mar 14 05:13:51.863 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-1Contabilidad udp-a0c6e3a8-b9fd-4d31-8f2b-698cee14a893 
+Mar 14 05:13:51.881 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-1Contabilidad udp-a0c6e3a8-b9fd-4d31-8f2b-698cee14a893 19 

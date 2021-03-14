@@ -1,0 +1,15 @@
+Mar 14 05:13:46.840 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 05:13:46.845 HYPERVISOR: Started on IP = localhost, TCP port = 52124.
+Mar 14 05:13:47.233 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 05:13:47.233 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips 
+Mar 14 05:13:47.234 GENERAL: working_dir=C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips
+Mar 14 05:13:47.234 HYPERVISOR: exec_cmd: ethsw create EthernetSwitch-4-Ventas 
+Mar 14 05:13:50.925 HYPERVISOR: exec_cmd: nio create_udp udp-d6bf141f-a2e0-48ce-a97f-033b753a7138 10005 127.0.0.1 10004 
+Mar 14 05:13:50.928 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-4-Ventas udp-d6bf141f-a2e0-48ce-a97f-033b753a7138 
+Mar 14 05:13:50.961 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-4-Ventas udp-d6bf141f-a2e0-48ce-a97f-033b753a7138 1 
+Mar 14 05:13:51.064 HYPERVISOR: exec_cmd: nio create_udp udp-1a14d902-47fc-49d4-a0de-5887464accb5 10006 127.0.0.1 10007 
+Mar 14 05:13:51.065 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-4-Ventas udp-1a14d902-47fc-49d4-a0de-5887464accb5 
+Mar 14 05:13:51.080 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-4-Ventas udp-1a14d902-47fc-49d4-a0de-5887464accb5 29 
+Mar 14 05:13:51.418 HYPERVISOR: exec_cmd: nio create_udp udp-1b096abd-6e89-42cf-8961-2793a3af0550 10013 127.0.0.1 10012 
+Mar 14 05:13:51.419 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-4-Ventas udp-1b096abd-6e89-42cf-8961-2793a3af0550 
+Mar 14 05:13:51.425 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-4-Ventas udp-1b096abd-6e89-42cf-8961-2793a3af0550 39 

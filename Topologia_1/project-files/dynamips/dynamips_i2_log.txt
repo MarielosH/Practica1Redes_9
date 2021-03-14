@@ -1,0 +1,15 @@
+Mar 14 05:13:45.654 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 05:13:45.657 HYPERVISOR: Started on IP = localhost, TCP port = 52118.
+Mar 14 05:13:46.087 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 05:13:46.088 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips 
+Mar 14 05:13:46.088 GENERAL: working_dir=C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips
+Mar 14 05:13:46.088 HYPERVISOR: exec_cmd: ethsw create EthernetSwitch-2 
+Mar 14 05:13:50.554 HYPERVISOR: exec_cmd: nio create_udp udp-4a701ccc-95cb-4785-a7dc-9d741f45ea60 10001 127.0.0.1 10000 
+Mar 14 05:13:50.555 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-2 udp-4a701ccc-95cb-4785-a7dc-9d741f45ea60 
+Mar 14 05:13:50.591 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-2 udp-4a701ccc-95cb-4785-a7dc-9d741f45ea60 1 
+Mar 14 05:13:50.895 HYPERVISOR: exec_cmd: nio create_udp udp-3842d6ab-d580-4c3a-b4b0-ed2ed498c82e 10004 127.0.0.1 10005 
+Mar 14 05:13:50.897 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-2 udp-3842d6ab-d580-4c3a-b4b0-ed2ed498c82e 
+Mar 14 05:13:50.898 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-2 udp-3842d6ab-d580-4c3a-b4b0-ed2ed498c82e 1 
+Mar 14 05:13:51.553 HYPERVISOR: exec_cmd: nio create_udp udp-439c9294-eceb-4778-b906-e3a76ccf3dbd 10014 127.0.0.1 10015 
+Mar 14 05:13:51.555 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-2 udp-439c9294-eceb-4778-b906-e3a76ccf3dbd 
+Mar 14 05:13:51.585 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-2 udp-439c9294-eceb-4778-b906-e3a76ccf3dbd 1 

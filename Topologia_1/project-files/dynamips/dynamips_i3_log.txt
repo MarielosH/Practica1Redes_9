@@ -1,0 +1,15 @@
+Mar 14 05:13:46.216 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 05:13:46.219 HYPERVISOR: Started on IP = localhost, TCP port = 52121.
+Mar 14 05:13:46.652 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 05:13:46.653 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips 
+Mar 14 05:13:46.654 GENERAL: working_dir=C:\Users\yimmi\OneDrive\Escritorio\Proyecto_Topologia1\project-files\dynamips
+Mar 14 05:13:46.654 HYPERVISOR: exec_cmd: ethsw create EthernetSwitch-3Informatica 
+Mar 14 05:13:50.771 HYPERVISOR: exec_cmd: nio create_udp udp-5eacd3d3-32da-418b-b7fa-b0648f22eb5d 10003 127.0.0.1 10002 
+Mar 14 05:13:50.777 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-3Informatica udp-5eacd3d3-32da-418b-b7fa-b0648f22eb5d 
+Mar 14 05:13:50.796 HYPERVISOR: exec_cmd: ethsw set_dot1q_port EthernetSwitch-3Informatica udp-5eacd3d3-32da-418b-b7fa-b0648f22eb5d 1 
+Mar 14 05:13:51.170 HYPERVISOR: exec_cmd: nio create_udp udp-e6acadb9-492b-4565-a6bb-87376d4022a9 10008 127.0.0.1 10009 
+Mar 14 05:13:51.171 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-3Informatica udp-e6acadb9-492b-4565-a6bb-87376d4022a9 
+Mar 14 05:13:51.189 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-3Informatica udp-e6acadb9-492b-4565-a6bb-87376d4022a9 19 
+Mar 14 05:13:51.771 HYPERVISOR: exec_cmd: nio create_udp udp-cd03ecd9-c6cc-4113-a8d4-4dce5f7a67b1 10017 127.0.0.1 10016 
+Mar 14 05:13:51.772 HYPERVISOR: exec_cmd: ethsw add_nio EthernetSwitch-3Informatica udp-cd03ecd9-c6cc-4113-a8d4-4dce5f7a67b1 
+Mar 14 05:13:51.783 HYPERVISOR: exec_cmd: ethsw set_access_port EthernetSwitch-3Informatica udp-cd03ecd9-c6cc-4113-a8d4-4dce5f7a67b1 29 

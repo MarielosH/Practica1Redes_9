@@ -1,0 +1,42 @@
+uBridge version 0.9.16 running with WinPcap version 4.1.3 (packet.dll version 4.1.0.2980), based on libpcap version 1.0 branch 1_0_rel0b (20091008)
+Hypervisor TCP control server started (IP localhost port 58229).
+UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
+Ethernet interface \Device\NPF_{3E8C7B42-F348-4BF8-BBAA-9BB3E7164112}
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-1 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-1 has started
+UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
+UDP tunnel connecting from local port 30000 to IPv4 addresss 10.8.0.2 on port 20000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
+UDP tunnel connecting from local port 30000 to IPv4 addresss 10.8.0.2 on port 20000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10001 to IPv4 addresss 127.0.0.1 on port 10000
+UDP tunnel connecting from local port 30000 to IPv4 addresss 10.8.0.3 on port 20000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
+UDP tunnel connecting from local port 20000 to IPv4 addresss 10.8.0.3 on port 30000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10001 to IPv4 addresss 127.0.0.1 on port 10000
+Ethernet interface \Device\NPF_{3E8C7B42-F348-4BF8-BBAA-9BB3E7164112}
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-1 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-1 has started
+UDP tunnel connecting from local port 10001 to IPv4 addresss 127.0.0.1 on port 10000
+UDP tunnel connecting from local port 30000 to IPv4 addresss 10.8.0.3 on port 20000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10000 to IPv4 addresss 127.0.0.1 on port 10001
+UDP tunnel connecting from local port 20000 to IPv4 addresss 10.8.0.3 on port 30000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10001 to IPv4 addresss 127.0.0.1 on port 10000
+UDP tunnel connecting from local port 30000 to IPv4 addresss 10.8.0.3 on port 20000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+UDP tunnel connecting from local port 10001 to IPv4 addresss 127.0.0.1 on port 10000
+UDP tunnel connecting from local port 20000 to IPv4 addresss 10.8.0.3 on port 30000
+Source NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started
+Destination NIO listener thread for 2e51f747-2e9d-4424-88d0-2e71ffe99f1f-4 has started

@@ -1,0 +1,38 @@
+Mar 14 02:12:34.476 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 14 02:12:34.477 HYPERVISOR: Started on IP = localhost, TCP port = 58220.
+Mar 14 02:12:34.666 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 14 02:12:34.667 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\di3go\GNS3\projects\Practica1\project-files\dynamips 
+Mar 14 02:12:34.676 GENERAL: working_dir=C:\Users\di3go\GNS3\projects\Practica1\project-files\dynamips
+Mar 14 02:12:34.677 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Mar 14 02:12:37.702 HYPERVISOR: exec_cmd: nio create_udp udp-bab56976-9b18-4b04-9f10-93e7888e6c77 10003 127.0.0.1 10002 
+Mar 14 02:12:37.703 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 
+Mar 14 02:12:37.725 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 1 
+Mar 14 02:12:37.809 HYPERVISOR: exec_cmd: nio create_udp udp-25b89f6d-1637-40d2-a243-20182cf4255b 10006 127.0.0.1 10007 
+Mar 14 02:12:37.810 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-25b89f6d-1637-40d2-a243-20182cf4255b 
+Mar 14 02:12:37.817 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-25b89f6d-1637-40d2-a243-20182cf4255b 30 
+Mar 14 02:12:37.847 HYPERVISOR: exec_cmd: nio create_udp udp-b343234f-9cf1-4ab9-ad0b-23650565e643 10008 127.0.0.1 10009 
+Mar 14 02:12:37.848 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-b343234f-9cf1-4ab9-ad0b-23650565e643 
+Mar 14 02:12:37.879 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b343234f-9cf1-4ab9-ad0b-23650565e643 1 
+Mar 14 03:45:22.733 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-25b89f6d-1637-40d2-a243-20182cf4255b 
+Mar 14 03:45:22.755 HYPERVISOR: exec_cmd: nio delete udp-25b89f6d-1637-40d2-a243-20182cf4255b 
+Mar 14 03:45:23.541 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 1 
+Mar 14 03:45:23.541 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b343234f-9cf1-4ab9-ad0b-23650565e643 1 
+Mar 14 03:46:24.493 HYPERVISOR: exec_cmd: nio create_udp udp-d8b9ce1d-3a06-46ac-bdb4-cf65382b1642 10006 127.0.0.1 10007 
+Mar 14 03:46:24.494 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-d8b9ce1d-3a06-46ac-bdb4-cf65382b1642 
+Mar 14 03:46:24.510 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-d8b9ce1d-3a06-46ac-bdb4-cf65382b1642 30 
+Mar 14 03:47:14.790 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-d8b9ce1d-3a06-46ac-bdb4-cf65382b1642 
+Mar 14 03:47:14.800 HYPERVISOR: exec_cmd: nio delete udp-d8b9ce1d-3a06-46ac-bdb4-cf65382b1642 
+Mar 14 03:47:25.346 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 1 
+Mar 14 03:47:25.347 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-b343234f-9cf1-4ab9-ad0b-23650565e643 1 
+Mar 14 03:47:32.231 HYPERVISOR: exec_cmd: nio create_udp udp-41102d61-b19d-4421-b3fa-a302e608fa84 10006 127.0.0.1 10007 
+Mar 14 03:47:32.232 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-41102d61-b19d-4421-b3fa-a302e608fa84 
+Mar 14 03:47:32.239 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-41102d61-b19d-4421-b3fa-a302e608fa84 39 
+Mar 14 04:07:41.765 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-b343234f-9cf1-4ab9-ad0b-23650565e643 
+Mar 14 04:07:41.783 HYPERVISOR: exec_cmd: nio delete udp-b343234f-9cf1-4ab9-ad0b-23650565e643 
+Mar 14 04:07:49.614 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 1 
+Mar 14 04:07:49.615 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-41102d61-b19d-4421-b3fa-a302e608fa84 39 
+Mar 14 04:08:02.519 HYPERVISOR: exec_cmd: ethsw set_dot1q_port Switch1 udp-bab56976-9b18-4b04-9f10-93e7888e6c77 1 
+Mar 14 04:08:02.519 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-41102d61-b19d-4421-b3fa-a302e608fa84 39 
+Mar 14 04:08:09.495 HYPERVISOR: exec_cmd: nio create_udp udp-7cbe3fb0-3363-46e7-a424-0b604c9b8947 10008 127.0.0.1 10009 
+Mar 14 04:08:09.496 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-7cbe3fb0-3363-46e7-a424-0b604c9b8947 
+Mar 14 04:08:09.510 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-7cbe3fb0-3363-46e7-a424-0b604c9b8947 19 

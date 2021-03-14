@@ -37,4 +37,46 @@ La topología 1 cuenta con 6 host, 3 de ellas con máquinas virtuales con sistem
 ![Screenshot_207](https://user-images.githubusercontent.com/58566059/111056768-58113800-8447-11eb-90d3-f4261a71251c.png)
 ![Screenshot_208](https://user-images.githubusercontent.com/58566059/111056769-5a739200-8447-11eb-850c-f2044784aa1a.png)
 
+## Topología 2
+
+![image](https://user-images.githubusercontent.com/24401039/111065489-b4904980-847f-11eb-9825-4bbd2ce451f9.png)
+
+### Configuración de la topologia 2
+- Switch 1  
+![image](https://user-images.githubusercontent.com/24401039/111065493-b78b3a00-847f-11eb-916e-aa19f5ca0958.png)
+
+- Switch 2  
+![image](https://user-images.githubusercontent.com/24401039/111065495-b9ed9400-847f-11eb-95d4-baa5bf84e4b2.png)
+
+-Switch 3  
+![image](https://user-images.githubusercontent.com/24401039/111065502-bc4fee00-847f-11eb-8fb9-97d3b51f9b14.png)
+
+-Configuración de la nube usando VPN  
+![image](https://user-images.githubusercontent.com/24401039/111065507-bfe37500-847f-11eb-8999-6134a2c9e6f2.png)
+
+##Configuración de las maquinas tipo servidor en la topología 2
+
+-Para poder realizar el seteo de una dirección ip estatica en Ubuntu Server 20.04 LTS se debe de introducir el comando 
+```sh
+Sudo nano /etc/netplan/01-netcfg.yaml
+```
+Y proceder con la creación del siguiente archivo, en este caso para el servidor de Informatica  
+![Screenshot](https://user-images.githubusercontent.com/24401039/111065730-d1794c80-8480-11eb-87b0-d6d4fea98c11.png)
+
+Luego, usamos la combinación de teclas Ctrl+O para guardar y Ctrl+X para cerrar el editor de texto e ingresamos el comando
+```sh
+sudo netplan apply
+```
+
+Con esto la dirección IP estatica en nuestro server estaria seteada. Repetimos para todos los demas servers
+
+-Ventas  
+![image](https://user-images.githubusercontent.com/24401039/111065770-143b2480-8481-11eb-8b50-7122c63a9655.png)
+
+-Contabilidad  
+![image](https://user-images.githubusercontent.com/24401039/111065780-1d2bf600-8481-11eb-8c58-f6934ae29c0f.png)
+
+
+
+
 

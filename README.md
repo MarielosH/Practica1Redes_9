@@ -3,7 +3,7 @@
 - 201503470 Yimmi Daniel Ruano Pernillo
 - 201314852 Diego René Molina Roldán
 - 201504399 María de Los Angeles Herrera Sumalé
-- 201504254 Wendy Aracely Chamalé Boch
+- 201504284 Wendy Aracely Chamalé Boch
 
 ## Topología 1 
 La topología 1 cuenta con 6 host, 3 de ellas con máquinas virtuales con sistema operativo .......  y las otras 3 son VPC
